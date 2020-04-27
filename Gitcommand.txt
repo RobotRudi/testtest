@@ -46,3 +46,10 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 %then
 :wq! % to close
+
+%Step 1 : Create branch 
+   git branch “branch name”
+
+%Step 2 : Checkout branch
+   git checkout “branch name”
+
