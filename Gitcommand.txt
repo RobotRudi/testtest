@@ -31,3 +31,6 @@ git remote add origin https://github.com/Brugernavn/RepositorieName.git
 
 % Push to master
 git push -u origin master
+
+%Create and version in your repository and push to that. 
+
