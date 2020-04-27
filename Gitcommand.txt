@@ -1,0 +1,33 @@
+Gitbash fra terminalen
+%Tjek giv version
+git --version
+
+%config to GitHub
+git config --global user.email "your@mail.com " git config --global user.name "Your.githubusername"
+
+%go to folder 
+Cd /Users/DesktopName/Desktop/folderName/
+
+%Init git - go to locate folder enter git init. Opretter en skjult folder. 
+Git init
+
+%Gør skjult folder synlig. 
+default write com.apple.finder AppleShowAllFiles YES
+
+%opret et dokument. .txt, .html osv. 
+touch filnavn.FilType
+
+% git status - viser med rødt hvilke filer der ikke er added og med grønt, de som er. 
+git status
+
+% git add filnavn eller *.dokumentType eller . (Punktun adder alle filer)
+Git add .
+
+% Når dine filer er added skal de committees Med en besked. 
+git commit -m "Din besked her"
+
+%Tildel dit GitHub Repositorie - Gå til GitHub, opret repositorie, kopier linket til %nedenstående efter origin:
+git remote add origin https://github.com/Brugernavn/RepositorieName.git
+
+% Push to master
+git push -u origin master
