@@ -34,3 +34,6 @@ git push -u origin master
 
 %Create and version in your repository and push to that. 
 
+% AUtocompleation in terminal on mac. 
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
+
